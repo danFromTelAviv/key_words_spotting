@@ -1,5 +1,8 @@
 import os
 
+from audio_to_mfcc import turn_waves_to_mfcc
+from training_loop import train
+
 
 def prepare_mfccs(path):
     os.rename(path + "audio_files/", path + "wav/")

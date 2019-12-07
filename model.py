@@ -1,7 +1,5 @@
 import torch
 from torch import nn
-import numpy as np
-import torch.functional as F
 
 
 class WaveNetConv(nn.Module):
