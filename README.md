@@ -18,9 +18,11 @@ The repo is very minimal.
 * run main.py
 
 as is:
+```buildoutcfg
+epoch: 17, loss: 0.021094020111433718, val_loss:0.019179460771668412, acc: 0.9086629001883191, val_acc: 0.9324358974358976
+```
 
-
-with some minor changes that I can not share ; )
+with some architecture changes that I can not share ; )
 ```buildoutcfg
 epoch: 19, loss: 0.0041030201199985334, val_loss:0.0021393651105013197, acc: 0.9853107344632844, val_acc: 0.9932051282051269
 ```
