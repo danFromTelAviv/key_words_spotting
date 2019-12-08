@@ -68,7 +68,7 @@ def training_loop(model, train_loader, val_loader, num_epochs=1):
 
 
 def weighted_L1_loss(L1_criterion, out, batches_per_epoch, y):
-    eps = (.1 / batches_per_epoch)
+    eps = (.001 / batches_per_epoch)
     return (L1_criterion(out, y) * (y + y.mean() + eps)).mean()
 
 
