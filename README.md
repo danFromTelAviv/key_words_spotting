@@ -17,6 +17,14 @@ The repo is very minimal.
 * change the path in main.py to the path of the snip dataset.
 * run main.py
 
+as is:
+
+
+with some minor changes that I can not share ; )
+```buildoutcfg
+epoch: 19, loss: 0.0041030201199985334, val_loss:0.0021393651105013197, acc: 0.9853107344632844, val_acc: 0.9932051282051269
+```
+
 
 
 
