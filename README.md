@@ -4,7 +4,7 @@ Coucke et al., 2018, "Efficient keyword spotting using dilated convolutions
 and gating"
 http://150.162.46.34:8080/icassp2019/ICASSP2019/pdfs/0006351.pdf
 
-* we did not use their trick with labeling part of the positive samples as positive using a VAD. Instead we used maxpooling. We found that using some changes to the proposed architecture we can still get similar results without finetuning a bunch of hyperparameters and using a VAD. 
+* we did not use their trick of labeling parts of the positive samples as positive using a VAD. Instead we used maxpooling. We found that using some changes to the proposed architecture we can still get similar results without finetuning a bunch of hyperparameters and using a VAD. 
 
 
 Utilizing the data found at : 
